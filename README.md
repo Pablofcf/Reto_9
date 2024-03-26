@@ -34,7 +34,9 @@ Realice pruebas para calcular fibonacci con iteración o con recursión. Determi
 
 ```
 5. Crear cuenta en stackoverflow y adjuntar imagen en el repo
+
 [![image.png](https://i.postimg.cc/6qkbCpNQ/image.png)](https://postimg.cc/JHQQLm0w)
 
 6. Crear perfil en Linkedin
 
+[![Captura-de-pantalla-2024-03-26-100033.png](https://i.postimg.cc/C1mzZRkj/Captura-de-pantalla-2024-03-26-100033.png)](https://postimg.cc/qh6kSMmR)
