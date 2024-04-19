@@ -1,7 +1,7 @@
 # Reto_9
 
 1. De los retos anteriores selecione 3 funciones y escribalas en forma de lambdas.
-
+1) Programa (Función Lambda) para hallar el promedio de 5 números
 ```python
 
 ```
