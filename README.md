@@ -1,7 +1,7 @@
 # Reto_9
 
 1. De los retos anteriores selecione 3 funciones y escribalas en forma de lambdas.
-1) Programa (Función Lambda) para hallar el promedio de 5 números
+1.1 Programa (Función Lambda) para hallar el promedio de 5 números
 ```python
 # Programa, calculo de promedio
 if __name__=="__main__":
@@ -16,7 +16,7 @@ promedio = (lambda a,b,c,d,e:(a+b+c+d+e)/5)(a,b,c,d,e)
 # Mostrar resultado funcion Anonima
 print("El promedio de los números digitados es: ",promedio)
 ```
-2) Programa (Función Lambda) para calcular el peso de n animales (gallinas, gallos y pollitos)
+1.2 Programa (Función Lambda) para calcular el peso de n animales (gallinas, gallos y pollitos)
 ```python
 '''cantidad de carne de aves en kilos si se tienen N gallinas,
 M gallos y K pollitos cada uno pesando 6 kilos, 7 kilos y 1 kilo respectivamente.
@@ -31,7 +31,7 @@ if __name__ == "__main__":
 masa=(lambda n,m,k:(n*6)+(m*7)+(k*1))(n,m,k)
 print("El peso de ",n, "gallinas, ",m, "gallos y ",k, "pollitos es de ",masa, "kilos")
 ```
-3) Programa (Función Lambda) para 
+1.3 Programa (Función Lambda) para 
 ```python
 #Calcular una función Racional
 if __name__ == "__main__":
