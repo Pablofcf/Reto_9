@@ -44,6 +44,7 @@ if __name__ == "__main__":
  print("El resultado de su funcion F(x) es: ",fx)
 ```
 2. De los retos anteriores selecione 3 funciones y escribalas con argumentos no definidos (*args).
+   
 2.1
 ```python
 #Sacar el cuadrado de un número
