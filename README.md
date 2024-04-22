@@ -44,9 +44,49 @@ if __name__ == "__main__":
  print("El resultado de su funcion F(x) es: ",fx)
 ```
 2. De los retos anteriores selecione 3 funciones y escribalas con argumentos no definidos (*args).
-
+2.1
 ```python
-
+#Sacar el cuadrado de un número
+def listado(*args)-> int:
+  cuadrado : int = 0
+  for num in args:
+    cuadrado=num**2
+  return cuadrado
+if __name__ == "__main__":
+    a = int(input("Ingrese numero : "))
+    print("El cuadrado del numero es " + str(listado(a)))
+```
+2.2
+```python
+#Factorial de un número
+def factorial(*args)-> int:
+   for num in args:
+       a = 1
+       b = 1
+       while a <= num:
+        b = b * a
+        a += 1
+   return b
+if __name__ == "__main__":
+    c = int(input("Ingrese número: "))
+    if 0 <= c:
+       print("El factorial del numero es " + str(factorial(c)))
+    else:
+     print("Se digitó un número fuera de los parámetros")
+```
+2.3
+```python
+#Dado un número entero, determinar si ese número corresponde al código ASCII de una vocal minúscula.
+def ASCII(*args)-> int:
+     for num in args:
+      a=(chr(num))
+     return a
+if __name__ == "__main__":
+      a = int(input("Digite un número entero: "))
+      if a > 97 and a < 122:
+        print("El número entero corresponde a una vocal minuscula en el código ASCII, es:"+(ASCII(a)))
+      else:
+        print("No corresponde a una vocal minuscula en el código ASCII")
 ```
 3. Escriba una función recursiva para calcular la operación de la potencia.
 
