@@ -1,0 +1,9 @@
+#Sacar el cuadrado de un número
+def listado(*args)-> int:
+  cuadrado : int = 0
+  for num in args:
+    cuadrado=num**2
+  return cuadrado
+if __name__ == "__main__":
+    a = int(input("Ingrese numero : "))
+    print("El cuadrado del numero es " + str(listado(a)))

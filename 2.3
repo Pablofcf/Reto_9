@@ -1,0 +1,11 @@
+#Dado un número entero, determinar si ese número corresponde al código ASCII de una vocal minúscula.
+def ASCII(*args)-> int:
+     for num in args:
+      a=(chr(num))
+     return a
+if __name__ == "__main__":
+      a = int(input("Digite un número entero: "))
+      if a > 97 and a < 122:
+        print("El número entero corresponde a una vocal minuscula en el código ASCII, es:"+(ASCII(a)))
+      else:
+        print("No corresponde a una vocal minuscula en el código ASCII")
