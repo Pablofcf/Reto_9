@@ -71,8 +71,6 @@ if __name__=="__main__":
     print("Su numero es: "+str(potencia(num1,num2)))
 ```
 4. Utilice la siguiente plantilla de code para contar el tiempo:
-
-
 ```python
 import time
 
@@ -112,6 +110,7 @@ if __name__ == "__main__":
     fibonacci_tiempo() 
 ```
 [![Captura-de-pantalla-2024-04-22-092200.png](https://i.postimg.cc/MT9HThYg/Captura-de-pantalla-2024-04-22-092200.png)](https://postimg.cc/0MJPXXFC)
+
 5. Crear cuenta en stackoverflow y adjuntar imagen en el repo
 
 [![image.png](https://i.postimg.cc/6qkbCpNQ/image.png)](https://postimg.cc/JHQQLm0w)
